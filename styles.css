@@ -1,0 +1,139 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fb;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    background: #1e293b;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: #e2e8f0;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* HEADINGS */
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+/* CARD STYLE */
+.container, form, table {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+/* FORM */
+form {
+    padding: 25px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: 0.2s;
+}
+
+input:focus {
+    border-color: #38bdf8;
+    outline: none;
+}
+
+/* BUTTONS */
+button {
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Primary button */
+form button {
+    background: #38bdf8;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background: #0ea5e9;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background: #1e293b;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+/* ACTION BUTTONS */
+td button {
+    margin: 3px;
+    font-size: 12px;
+}
+
+/* Details */
+td button:nth-child(1) {
+    background: #3b82f6;
+    color: white;
+}
+
+/* Edit */
+td button:nth-child(2) {
+    background: #f59e0b;
+    color: white;
+}
+
+/* Delete */
+td button:nth-child(3) {
+    background: #ef4444;
+    color: white;
+}
+
+/* Hover effects */
+td button:hover {
+    opacity: 0.85;
+}

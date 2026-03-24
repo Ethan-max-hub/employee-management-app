@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Contacts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="new-contact.html">New Contact</a>
+    <a href="view-contacts.html">View All Contacts</a>
+</nav>
+
+<div class="container">
+    <h2>All Employees</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Department</th>
+            <th>Actions</th>
+        </tr>
+
+        <tr>
+            <td>John Doe</td>
+            <td>john@email.com</td>
+            <td>0712345678</td>
+            <td>IT</td>
+            <td>
+                <button onclick="showDetails()">Details</button>
+                <button onclick="editContact()">Edit</button>
+                <button onclick="deleteContact()">Delete</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
